@@ -34,6 +34,7 @@
 |--mongo-client|No default value|✔|TEXT|mongo binary path. The path must match --mongo-shell value.|```/path/to/mongo```|
 |--porcelain|false|✘|N/A|for each executed script, display relative path to scan path||
 |--flags|No default value|✔|TEXT|add a flag on the executed scripts. To define multiple rules, use option multiple times.||
+|--datamaintain-monitoring-api-url|No default value|✔|TEXT|Url to contact the datamaintain monitoring app.Will be used to send all reports on executions||
 |-h, --help|No default value|✘|N/A|Display command help and exit||
 ## list
 ### Options
